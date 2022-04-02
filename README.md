@@ -1,6 +1,6 @@
 ### JetBrains IDEA
 
-#### 1. Edit Custom Properties
+#### 0. Edit Custom Properties
 
 **Help -> Edit Custom Properties**
 
@@ -47,67 +47,96 @@ idea.log.path=${idea.system.path}/log
 
 ```
 
-#### 2. 常用主题安装
+#### 1. Appearance and Behavior
 
-##### 1) Trash Panda Theme
+##### 2.1 常用主题安装
+
+1. ##### Trash Panda Theme
+
 
 ![Trash Panda Theme](img\Trash Panda Theme.jpg)
 
-##### 2) Xcode-Dark Theme
+2. Xcode-Dark Theme
+3. Darcula Darker Theme
+4. Hiberbee Theme
+5. Spacegray Theme
+6. Atom One Theme
+7. One Dark theme
+8. Cyan Light Theme
 
-##### 3) Darcula Darker Theme
+##### 2.2 新一行展示完整工具栏
 
-##### 4) Hiberbee Theme
+![微信截图_20220402212545](img\微信截图_20220402212545.png)
 
-##### 5) Spacegray Theme
+![微信截图_20220402212617](img\微信截图_20220402212617.png)
 
-##### 6) Atom One Theme
+##### 2.3 菜单栏字体设置
 
-##### 7) One Dark theme
+![微信截图_20220402212105](img\微信截图_20220402212105.png)
 
-##### 8) Cyan Light Theme
+##### 2.4 提高滚动条对比度
 
-#### 3. 常用插件列表
+![微信截图_20220402214053](img\微信截图_20220402214053.png)
 
-##### - Alibaba Cloud Toolkit
+##### 2.5 设置固定背景图片
 
-##### - Alibaba Java Coding Guidelines 
+![微信截图_20220402213923](img\微信截图_20220402213923.png)
 
-##### - Background Image Plus +
+##### 2.6 设置动态背景图片
 
-##### - CodeGlance
+![微信截图_20220402220221](img\微信截图_20220402220221.png)
 
-##### - Codota
+#### 2. 快捷键设置
 
-##### - ELM
+![微信截图_20220402214726](img\微信截图_20220402214726.png)
 
-##### - GitToolBox
+#### 3. 编辑区个性化设置
 
-##### - Grep Console
+##### 3.1 编辑区字体设置
 
-##### - JUnitGenerator
+![微信截图_20220402212331](img\微信截图_20220402212331.png)
 
-##### - RestfulTool
+##### 3.2 设置鼠标滚轮修改字体大小
 
-##### - Key Promoter X
+![微信截图_20220402213140](D:\Documents\Configurations\jetbrains-idea-config\img\微信截图_20220402213140.png)
 
-##### - Maven Helper
+##### 3.3 设置鼠标悬浮提示
 
-##### - Translation 
 
-##### - MybatisX
 
-##### - Rainbow Brackets
 
-##### - Spring Initializr And Assistant
 
-##### - Spring Boot Assistant
+##### 3.x 隐藏特定类型文件不显示
 
-##### - String Manipulation
+![微信截图_20220402223507](img\微信截图_20220402223507.png)
 
-##### - Translation
 
-#### 4. 设置SDKs
+
+
+
+#### 4. 常用插件列表
+
+- Alibaba Cloud Toolkit
+- Alibaba Java Coding Guidelines 
+- Background Image Plus +
+- CodeGlance
+- Codota
+- ELM
+- GitToolBox
+- Grep Console
+- JUnitGenerator
+- RestfulTool
+- Key Promoter X
+- Maven Helper
+- Translation
+- MybatisX
+- Rainbow Brackets
+- Spring Initializr And Assistant
+- Spring Boot Assistant
+- String Manipulation
+- Translation
+
+#### 5. 设置SDKs
 
 File -> Project Structure -> Platform Settings -> SDKs
 
@@ -116,3 +145,25 @@ File -> Project Structure -> Platform Settings -> SDKs
 File -> Project Structure -> Project Serrings
 
 ![微信截图_20220402194414](img\微信截图_20220402194414.png)
+
+#### 6. Git 配置
+
+File -> Settings -> Version Control -> Git
+
+![微信截图_20220402211131](img\微信截图_20220402211131.png)
+
+Git 窗口和 Commit窗口显示内容分离
+
+![微信截图_20220402222841](img\微信截图_20220402222841.png)
+
+设置改动文件展示分组模式
+
+![微信截图_20220402223816](img\微信截图_20220402223816.png)
+
+#### 7. Maven 配置
+
+File -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven
+
+![微信截图_20220402211345](img\微信截图_20220402211345.png)
+
+![微信截图_20220402221058](img\微信截图_20220402221058.png)
