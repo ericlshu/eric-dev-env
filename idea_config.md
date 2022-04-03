@@ -44,7 +44,6 @@ idea.config.path=D:/Documents/JetBrains/Community/config
 idea.plugins.path=${idea.config.path}/plugins
 idea.system.path=D:/Documents/JetBrains/Community/system
 idea.log.path=${idea.system.path}/log
-
 ```
 
 #### 1. Appearance & Behavior
@@ -186,14 +185,18 @@ Spring Autowriting
 - JUnitGenerator
 - RestfulTool
 - Key Promoter X
+- LeetCode Editor
 - Maven Helper
 - Translation
 - MybatisX
 - Rainbow Brackets
-- Spring Initializr And Assistant
+- RestfulTool
 - Spring Boot Assistant
+- Spring Initializr And Assistant
 - String Manipulation
 - Translation
+- Vue.js
+- YAML/Ansible support
 
 #### 5. Version Control
 
