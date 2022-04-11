@@ -1,0 +1,57 @@
+{
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.fontSize": 15,
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.nodePath": "C:\\Softwares\\Nodejs\\node.exe",
+    "leetcode.defaultLanguage": "java",
+    "leetcode.workspaceFolder": "D:\\Sandbox\\Workspace\\vscode\\leetcode",
+    "remote.SSH.remotePlatform": {
+        "192.168.3.201": "linux",
+        "192.168.3.33": "linux",
+        "120.26.107.127": "linux"
+    },
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commentDescription": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:\\Softwares\\Java\\jdk1.8.0_321"
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "C:\\Softwares\\Java\\jdk-11.0.14"
+        }
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "spring-boot.ls.java.home": "C:\\Softwares\\Java\\jdk-11.0.14",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "redhat.telemetry.enabled": true,
+    "security.workspace.trust.banner": "never",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\shuli\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+    "java.configuration.maven.globalSettings": "D:\\Tools\\Apache\\maven-3.6.3\\conf\\settings.xml",
+    "maven.excludedFolders": [
+        "**/.*",
+        "**/node_modules",
+        "**/target",
+        "**/bin",
+        "**/archetype-resources"
+    ]
+}
