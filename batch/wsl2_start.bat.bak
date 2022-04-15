@@ -1,0 +1,14 @@
+rem 指定发行版子系统，添加一个 eth0:1 网卡，IP 为 192.168.50.28（网段内自己随便设个 IP）
+rem wsl -d Ubuntu -u root ip addr add 192.168.50.28/24 broadcast 192.168.50.255 dev eth0 label eth0:1
+
+wsl -d Ubuntu -u root /etc/wsl.init
+
+rem 在Win10中添加IP地址 192.168.50.39
+
+netsh interface ip add address "vEthernet (WSL)" 192.168.50.39 255.255.255.0
+
+
+
+rem wsl -d Ubuntu -u root /etc/wsl.init
+
+rem netsh interface ip add address "vEthernet (WSL)" 192.168.3.200 255.255.255.0
