@@ -141,6 +141,19 @@ Spring Autowriting
  * @date ${YEAR}-${MONTH}-${DAY} ${TIME}
  * @since jdk-11.0.14
  */
+
+/**
+ * <p>Copyright (c) ${YEAR} Authors. All rights reserved.
+ *
+ * <p>Project: ${PROJECT_NAME}
+ * <p>Created By : Eric L SHU
+ * <p>Created On : ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE}:${SECOND}
+ *
+ * Description :
+ * 
+ * @version 1.0
+ * @since jdk-17
+ */
 ```
 
 <img src="img\Snipaste_2022-04-03_12-09-51.png" alt="Snipaste_2022-04-03_12-09-51.png"/>
