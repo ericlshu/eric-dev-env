@@ -1,0 +1,82 @@
+version: '3.8'
+
+services:
+  redis1:
+    image: redis:6.2.6
+    container_name: redis1
+    volumes:
+      - ./redis-master.conf:/usr/local/etc/redis/redis.conf
+    command: redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - "6376:6379"
+    networks:
+      - redis-network
+
+  redis2:
+    image: redis:6.2.6
+    container_name: redis2
+    depends_on:
+      - redis1
+    volumes:
+      - ./redis-replica.conf:/usr/local/etc/redis/redis.conf
+    command: redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - "6377:6379"
+    networks:
+      - redis-network
+
+  redis3:
+    image: redis:6.2.6
+    container_name: redis3
+    depends_on:
+      - redis1
+    volumes:
+      - ./redis-replica.conf:/usr/local/etc/redis/redis.conf
+    command: redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - "6378:6379"
+    networks:
+      - redis-network
+
+  sentinel1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sentinel1
+    depends_on:
+      - redis1
+    command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+    ports:
+      - "6366:6369"
+    networks:
+      - redis-network
+
+  sentinel2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sentinel2
+    depends_on:
+      - redis1
+    command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+    ports:
+      - "6367:6369"
+    networks:
+      - redis-network
+
+  sentinel3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sentinel3
+    depends_on:
+      - redis1
+    command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+    ports:
+      - "6368:6369"
+    networks:
+      - redis-network
+
+networks:
+  redis-network:
+    driver: bridge
